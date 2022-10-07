@@ -16,7 +16,14 @@ code {
   text-align: center;
 }
 
-.btn{
-  align-self: center;
 
+.container {
+  background: #DAF7A6;
+  border-radius: 6px;
 }
+
+.table col-12 {
+  flex-basis: 50%;
+  
+} 
+
