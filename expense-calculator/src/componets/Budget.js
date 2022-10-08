@@ -10,12 +10,12 @@ function Budget() {
 
   const[expense, setExpense] = useState([])
 
-  //   useEffect(() => {
-  //     fetch('http://localhost:3000/expense')
-  //      .then(resp => resp.json())
-  //      .then(data => setExpense(data))
-  //  }, [])
-   //console.log(expense);
+    useEffect(() => {
+      fetch('https://myservercalculator.herokuapp.com/expense')
+       .then(resp => resp.json())
+       .then(data => setExpense(data))
+   }, [])
+   console.log(expense);
 
    function addExpense(added) {
     const addedExpense = [...expense, added];
