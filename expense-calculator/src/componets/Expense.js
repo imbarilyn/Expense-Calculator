@@ -1,20 +1,20 @@
-// import React from 'react'
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-// function Expense({expe}) {
-//   const {description, cost} = expe
+function Expense({expe}) {
+  const {description, cost} = expe
 
   
-//   return (
+  return (
   
-//        <tr>
-//       {/* <th scope="row">{key}</th> */}
-//       <td>{description}</td>
-//       <td>{cost}</td> 
+       <tr>
+      {/* <th scope="row">{key}</th> */}
+      <td>{description}</td>
+      <td>{cost}</td> 
            
-//     </tr>     
+    </tr>     
     
-//   )
-// }
+  )
+}
 
-// export default Expense
+export default Expense
