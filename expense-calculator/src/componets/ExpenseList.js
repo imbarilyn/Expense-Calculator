@@ -7,14 +7,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ExpenseList({expense}) {
   
-//   const expenseItem = expense.map(expe => {
-//     //console.log(expe)
-//     return(
-//        <Expense key = {expe.id} expe ={expe} />
+  const expenseItem = expense.map(expe => {
+    //console.log(expe)
+    return(
+       <Expense key = {expe.id} expe ={expe} />
        
-//   )
-// }
-// )
+  )
+}
+)
    
   return (
     <div className='mt-3'>
